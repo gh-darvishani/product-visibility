@@ -1,0 +1,17 @@
+{
+  "name": "darvishani/product-visibility",
+  "version": "1.0.0",
+  "description": "add product visibility",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Darvishani\\ProductVisibility\\": ""
+    }
+  }
+}

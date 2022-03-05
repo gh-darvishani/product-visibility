@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Product\Visibility">
+        <plugin name="darvishani_add_new_visibilty"
+                type="Darvishani\ProductVisibility\Plugin\AddNewProductVisibility"/>
+    </type>
+    <preference for="Magento\Catalog\Model\Product\Visibility"
+                type="Darvishani\ProductVisibility\Model\Product\Visibility"/>
+    <type name="Magento\Catalog\Helper\Product">
+        <plugin name="dassssssssss"
+                type="Darvishani\ProductVisibility\Plugin\ChangeCanShowProduct"/>
+    </type>
+</config>
